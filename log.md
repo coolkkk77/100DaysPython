@@ -1,8 +1,8 @@
 # Day 1: Installing Python
-**Completion Date:** 
-
+**Completion Date:**
+10/04/2019
 **Learned:** 
-
+How to install Python and clone a project from GitHub to Pycharm
 # Day 2: Printing in Python
 **Completion Date:** 
 
