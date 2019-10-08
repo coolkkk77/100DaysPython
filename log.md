@@ -5,9 +5,10 @@
 How to install Python and clone a project from GitHub to Pycharm
 # Day 2: Printing in Python
 **Completion Date:** 
-
+10/08/2019
 **Learned:** 
-
+How to use print function. How to position text and integers and set specific length.
+https://pyformat.info/
 # Day 3: Operators
 **Completion Date:** 
 
