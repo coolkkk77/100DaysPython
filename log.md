@@ -11,9 +11,9 @@ How to use print function. How to position text and integers and set specific le
 https://pyformat.info/
 # Day 3: Operators
 **Completion Date:** 
-
+10/08/2019
 **Learned:** 
-
+How to do numeric calculation. How to use quotes to quote a string, how to make string start a newine with `\n`, how to tab in a string with `\t`. And also how to use true and false operators.
 # Day 4: Variables & Variable Types
 **Completion Date:** 
 
