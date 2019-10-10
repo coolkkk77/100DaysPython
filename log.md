@@ -16,8 +16,13 @@ https://pyformat.info/
 How to do numeric calculation. How to use quotes to quote a string, how to make string start a newine with `\n`, how to tab in a string with `\t`. And also how to use true and false operators.
 # Day 4: Variables & Variable Types
 **Completion Date:** 
-
+10/10/2019
 **Learned:** 
+Python is case sensitive. Numbers cannot be the first character to name as a variable. Learned how to create a variable. Variables can be used to do calculation i.e. 1+1 = 2. No need to declare type of variables because Python knows. And same variable can be overwritten so the type will change.
+For example:
+var = 3
+var = str(var) - This turns var to a string.
+type(var)
 
 # Day 5: String Formatting
 **Completion Date:** 
