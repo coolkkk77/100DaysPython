@@ -26,8 +26,10 @@ type(var)
 
 # Day 5: String Formatting
 **Completion Date:** 
-
+10/13/2019
 **Learned:** 
+Formating characters to upper, lower cases. Use {} as a string replacement and formatting the position and width. {Position:Width}
+Tryncating a long string by using a number after a period. print("{:.5}".format(cheers.capitalize()))
 
 # Day 6: Lists
 **Completion Date:** 
