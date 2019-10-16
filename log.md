@@ -35,14 +35,19 @@ Tryncating a long string by using a number after a period. print("{:.5}".format(
 **Completion Date:** 
 10/15/2019
 **Learned:** 
-There are two ways to creat a list. Using text =[], by using square bracket or text=list(), by placing characters in the bracket.
+1. There are two ways to creat a list. Using text =[], by using square bracket or text=list(), by placing characters in the bracket.
 For example, text = 'Hello' will be list(text) and the output is ['h', 'e', 'l', 'l', 'o']
 Use .sort() to sort the list.
 luggage = [1, 3, 5, 2, 4]
 luggage.sort()
-If we want to reverse the list, just use .sort(reverse=True)
-Variables build from a list are the same object as original list, so if original list changes, the new variables will change too.
+2. If we want to reverse the list, just use .sort(reverse=True)
+3. Variables build from a list are the same object as original list, so if original list changes, the new variables will change too.
 In order to create a new version, a function need to be used. For example, luggage = [1, 3, 5, 2, 4], then we need to create a new version by using luggage_sorted = list(luggage)
+4. Simply use + to combine two lists. Or use .extend() to combine.
+5. Sorted() gives a new list of sorted character while list.sort() will change the entire original list.
+6. Using .append() to add additional items to a list.
+7. 
+
 # Day 7: Ranges
 **Completion Date:** 
 
