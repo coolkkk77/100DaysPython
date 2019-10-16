@@ -46,7 +46,22 @@ In order to create a new version, a function need to be used. For example, lugga
 4. Simply use + to combine two lists. Or use .extend() to combine.
 5. Sorted() gives a new list of sorted character while list.sort() will change the entire original list.
 6. Using .append() to add additional items to a list.
-7. 
+7. Using .count() to count the frequency of an item in a list. 
+quote = list("YOGURT! I hate Yogurt! Even with strawberries!")
+print(quote.count("r"))
+8. Using .insert(index, item) to add a new item to the list at a specific position.
+9. Using .pop(i) to remove and return the final element, or from a specific index i.
+10. .remove(i) method eliminates a specific item (i) from the list.
+11. .reverse() method reverses the order of the items in the list.
+12. A list can be cleared by using the .clear() method.
+13. Items in a list can be changed. 
+luggage = [2, 2, 3, 4, 5]
+luggage[0] = 1
+print(luggage)
+14. Python can conduct transformations to a list while declaring a new list.
+sample = list(range(1,13))
+times_12 = [i * 12 for i in sample]
+print(times_12)
 
 # Day 7: Ranges
 **Completion Date:** 
