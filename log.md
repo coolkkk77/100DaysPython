@@ -65,8 +65,11 @@ print(times_12)
 
 # Day 7: Ranges
 **Completion Date:** 
-
+10/18/2019
 **Learned:** 
+Range starts with index 0 and ends with declare value, so if a range of 10, it will be 0-9. You don't have to start with index 0 as well.
+Range function is range(start, stop, step). Step is the interval between start and stop.
+If the step is negative, then the range values are produced in reverse, which higher number will start first.
 
 # Day 8: Tuples
 **Completion Date:** 
