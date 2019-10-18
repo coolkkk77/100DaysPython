@@ -73,8 +73,25 @@ If the step is negative, then the range values are produced in reverse, which hi
 
 # Day 8: Tuples
 **Completion Date:** 
-
+10/18/2019
 **Learned:** 
+A.Tuples are immutable. Need to create a new tuble in order to change an item in tuple. Items in tuple cannot be deleted but can delte the whold tuple by using 'del'.
+B. Two ways to create a tuple:
+1. Use comma sepratated list: theme = "East", "Bound", "Down"
+2. Use a list of comma separated list of items in parentheses: good = ("Bandit", "Frog", "Snowman")
+
+C. List in a tuple can be modified.
+movie_list = ("Smokey and the Bandit", 1977, "Hal Needham", ["Burt Reynolds", "Sally Field", "Jerry Reed"])
+title, year, director, cast = movie_list
+cast.append("Jackie Gleason")---- Add Jackie Gleason to the movie_list
+
+D. Tuple can be used to assign multiple variables at the same time.
+movie = ("Smokey and the Bandit", 1977, "Hal Needham", ("Burt Reynolds", "Sally Field", "Jerry Reed"))
+title, year, director, stars = movie
+bandit, frog, snowman = stars
+print("Title: {}\nYear: {}\nDirector: {}".format(title, year, director))
+type(stars)
+print("Stars: {}\nBandit: {}\nFrog: {}\nSnowman: {}".format(stars, bandit, frog, snowman))
 
 # Day 9: Index and Slicing
 **Completion Date:** 
