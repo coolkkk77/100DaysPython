@@ -95,8 +95,23 @@ print("Stars: {}\nBandit: {}\nFrog: {}\nSnowman: {}".format(stars, bandit, frog,
 
 # Day 9: Index and Slicing
 **Completion Date:** 
-
+10/22/2019
 **Learned:** 
+1. Specific items can be retrieved from a list by using slicing format [start:stop:step]. Start is inclusive but stop is exclusive.
+2. Slicing can return items in sequence rather than just a single item.
+quotes[2:5]
+3. The step can be used to identify how many items to skip between returned values.
+quotes[::2]
+4. The step can also be used to reverse the order of the returned items.
+quotes[::-1]
+5. Slicing can be combined with indices to return a sequence from a specific item.
+quotes[0][::2]- This will return the first index and by counting a step of 2.
+6. Slicing doesn't only need to be applied to lists. It can also be used on variables..
+wayne = "Toughest Guy in Letterkenny"
+wayne[::-1]
+7. New list can be created based on the slicing output.
+exchange = quotes[2:5]
+print(exchange)
 
 # Day 10: If/Else
 **Completion Date:** 
